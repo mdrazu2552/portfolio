@@ -16,6 +16,9 @@
 .banner-right img{
     width: 80%;
 }
+.resume-left img {
+    width: 80%;
+}
 .align-center{
     text-align: center;
 }
@@ -53,4 +56,24 @@
 }
 .banner-left{
     margin-top: 30px;
+}
+
+/**---------------Resume section CSS start--------**/
+.resume{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #f8faff;
+}
+.resume-right h1 {
+    font-size: 50px;
+    margin-top: 130px;
+}
+.resume-right h3 {
+    font-size: 24px;
+    line-height: 45px;
+    margin-bottom: 10px;
+}
+.resume-right p {
+    font-size: 20px;
 }
