@@ -1,11 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 .container{
     width: 85%;
     margin: auto;
-        padding: 100px 0;
+
+}
+.padding{
+            padding: 60px 0;
 }
 .d-flex{
     display: flex;
@@ -76,4 +80,68 @@
 }
 .resume-right p {
     font-size: 20px;
+}
+
+/** experience section css**/
+.Experiences{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Experiences h1 {
+    font-size: 50px;
+}
+.exp-left h3 {
+    color: orange;
+    margin-bottom: 22px;
+    font-size: 23px;
+    margin-top: 40px;
+}
+.exp-left p {
+    font-size: 18px;
+    color: #555;
+}
+
+.exp-right h3 {
+    color: orange;
+    margin-bottom: 22px;
+    font-size: 23px;
+    margin-top: 40px;
+}
+
+.exp-right p {
+    font-size: 18px;
+    color: #555;
+}
+.exp-left{
+    padding: 40px 40px;
+    box-shadow: 6px 13px 20px 14px #00000024;
+    width: 45%;
+    height: 300px;
+    margin-right: 5%;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #0004ff, rgb(255, 38, 0));
+    border-image-slice: 1;
+}
+.exp-right{
+    padding: 40px 40px;
+    box-shadow: 6px 13px 20px 14px #00000024;
+    margin-right: 40px;
+    width: 45%;
+    margin-left: 5%;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, red, yellow);
+    border-image-slice: 1;
+}
+.exp-box{
+margin-top: 40px;
+
+}
+/**footer**/
+footer {
+    background: linear-gradient(180deg, #465ccb, #3d2360);
+    padding: 10px;
+}
+footer p{
+    color: #fff;
 }
